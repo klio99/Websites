@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Madinabonu 6-dars</title>
+    <style>
+        html {
+            margin: 0;
+            padding: 20px;
+        }
+        .bar {
+            background-color: #5487d4;
+            margin: 10px;
+            padding: 0;
+            border: 1px solid rgb(17, 42, 123);
+            list-style: none;
+            text-align: center;
+        }
+        .bar li {
+            display: inline;
+        }
+        .bar a {
+            padding: 10px;
+            margin: 20px;
+            text-decoration: none;
+            color: white;
+        }
+        .img {
+            margin: 10px;
+        }
+        .about {
+            margin: 10px;
+        }
+        .contact {
+            height: 300px;
+            display: flex;
+            margin: 10px;
+        }
+        .contact1 {
+            padding: 20px;
+            color: white;
+            background-color: #5487d4;
+            text-align: center;
+            margin: 10px;
+            width: 50%;
+            border: solid 1px rgb(17, 42, 123);
+        }
+        .contact2 {
+            text-align: center;
+            margin: 10px;
+            border: solid 1px white;
+            width: 50%;
+        }
+        input[type=text], select, textarea {
+            border-radius: 30px;
+            width: 350px;
+            padding: 12px;
+            border: 1px solid rgb(221, 215, 215);
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            border-radius: 30px;
+            padding: 5px 10px;
+            background-color: #5487d4;
+            color: rgb(225, 218, 218);
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+        background-color: #89b5f6;
+        }
+
+        .sponsors {
+            margin: 10px;
+            display: grid;
+        }
+
+        .hamkorlar {
+            display: grid;
+            margin-left: 30%;
+            margin-right: 30%;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: auto;
+            grid-column-gap: 1rem;
+            place-self: center;
+        }
+
+        .hamkorlar p{
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+	<div class="bar">
+		<ul>
+			<li><a href="#img">Bosh sahifa</a></li>
+			<li><a href="#about">Biz haqimizda</a></li>
+			<li><a href="#contact">Aloqa</a></li>
+			<li><a href="#sponsors">Hamkorlarimiz</a></li>
+		</ul>
+	</div>
+
+	<div class="img" id="img">
+		<h2>Japan Digital University</h2>
+		<img src="jdu.jpg" alt="Japan Digital University" title="Japan Digital University" width="100%">
+	</div>
+
+	<div class="about" id="about">
+		<h2>Biz haqimizda</h2>
+		<div class="biz">
+			<img src="about.jpg" alt="Biz haqimizda" width="300px" style="float: left; margin: 0 20px 20px 0;">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, accusamus. Expedita quas eum tempora, 
+            recusandae veniam nemo quibusdam nam ullam cumque ducimus molestias est quae corporis voluptas? Mollitia 
+            expedita eos sint dolore debitis enim in nam, quidem nesciunt animi deserunt sequi reprehenderit earum 
+            sapiente iste id illum tenetur numquam aliquam molestias eius, facere praesentium. Aut corrupti architecto 
+            similique! Laboriosam earum perferendis atque esse totam assumenda ut quasi nemo nobis commodi unde ad 
+            impedit veritatis voluptate repudiandae, vel exercitationem iste doloribus officiis amet dicta! Quasi, 
+            ratione quibusdam obcaecati molestias praesentium maiores rerum harum placeat delectus maxime ex itaque 
+            unde temporibus nam, eius nobis libero veniam deserunt in soluta, earum velit tempore. Sunt suscipit 
+            vero provident ipsam. Eum neque quos voluptatibus expedita similique voluptatem non error perferendis 
+            nesciunt, enim illo voluptatum consectetur labore rerum, corporis aspernatur eos inventore quod! Rem 
+            architecto atque adipisci nihil numquam suscipit repellendus, modi impedit? Voluptate praesentium veniam sed, 
+            dolorum, eaque molestias dolor modi ipsum obcaecati similique quod, porro error? Fugiat eaque rem, recusandae 
+            numquam aut repellat velit excepturi non similique. Sapiente consectetur recusandae sit obcaecati doloribus 
+            architecto quasi beatae ipsum, rem facere vitae temporibus a error eos quidem ipsam numquam inventore 
+            exercitationem rerum, tempora nemo! Atque, quibusdam!
+		</div>
+		<div class="biz">
+			<img src="cowork.jpg" alt="Coworking amaliyoti" width="200px" 
+				style="float: right; margin: 20px 0 20px 20px;">
+			<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, possimus? In, harum ut quas 
+                cumque nisi, placeat quis porro at possimus vero facere unde deserunt dolorem corrupti officia 
+                voluptatum veniam.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus tempora voluptas nihil? 
+                Reiciendis, asperiores tempore in libero aperiam ut earum!
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quod eos amet debitis voluptatem 
+                tempora. Beatae deleniti quibusdam consequatur iste quos placeat quas ad officiis dolorum similique, 
+                tempore quidem laudantium earum voluptates harum nihil blanditiis, maiores atque nam. A, vero!
+			</p>
+		</div>
+	</div>
+
+	<div class="contact" id="contact">
+		<div class="contact1">
+			<div>
+				<a href="#img">
+					<img src="Logo_white.webp" alt="JDU">
+				</a>
+			</div>
+			<div>
+				<h3>
+					(71) 200-05-95
+				</h3>
+			</div>
+			<div>
+				<h3>
+					info@jdu.uz
+				</h3>
+			</div>
+		</div>
+		<div class="contact2">
+			<h3>
+				Operatorimiz bog'lanishini <br> 
+				xohlasangiz ariza qoldiring
+			</h3>
+			<div>
+				<label for="ism">Ism</label>
+				<input type="text" id="ism" name="Ism" 
+				placeholder="Ism">
+			</div>
+			<div>
+				<label for="familiya">Familiya</label>
+				<input type="text" id="familiya" name="Familiya" 
+				placeholder="Familiya">1
+				<input type="submit" value="Ariza">
+			</div>
+		</div>
+	</div>
+
+	<div class="sponsors" id="sponsors">
+		<h3>Hamkorlarimiz</h3>
+		<div class="hamkorlar">
+            <div>
+				<img src="tou.png" alt="Tokyo Online University" width="200px">
+				<p>Tokyo Online University</p>
+			</div>
+            <div>
+				<img src="otemae.png" alt="Otemae University" width="150px" height="120px">
+				<p>Otemae University</p>
+			</div>
+			<div>
+				<img src="jahon tillari.jpg" alt="Japan Digital University" width="100px">
+				<p>Jahon Tillari Universiteti</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
